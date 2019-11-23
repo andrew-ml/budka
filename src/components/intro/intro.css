@@ -1,6 +1,7 @@
 .Intro {
   height: 100vh;
   background: rgb(207, 255, 175);
+  text-align: center;
 }
 .Intro .intro-slide {
   width: 1000px;
@@ -18,15 +19,15 @@
 
 .Intro .intro-text .title {
   display: block;
-  font-size: 50px;
+  font-size: 70px;
   margin: 0;
 }
 .Intro .intro-text {
   margin: auto;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 1.5;
   text-align: center;
 }
 .Intro p {
-  font-size: 40px;
+  font-size: 50px;
 }

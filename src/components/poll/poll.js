@@ -22,7 +22,6 @@ class Poll extends React.Component {
     });
 
     socket.addEventListener("message", event => {
-      // console.log("Message from server ", event.data, parseFloat(event.data));
       const value = parseFloat(event.data);
       if (!isNaN(value)) {
         const value = Math.round(parseFloat(event.data) * 100);

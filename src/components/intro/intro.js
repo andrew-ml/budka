@@ -37,12 +37,12 @@ const slides = [
     <img className="slider-image" src="/assets/slide-02.gif" />
   </div>,
   <div className="intro-slide">
-    <h1 className="title">Двигайте руками, чтобы выбрать цифру на шкале</h1>
-    <img className="slider-image" src="/assets/slide-03.gif" />
-  </div>,
-  <div className="intro-slide">
     <h1 className="title">Удерживайте руки 2 секунды, чтобы ответ засчитался</h1>
     <img className="slider-image" src="/assets/slide-04.gif" />
+  </div>,
+  <div className="intro-slide">
+    <h1 className="title">Двигайте руками, чтобы выбрать цифру на шкале</h1>
+    <img className="slider-image" src="/assets/slide-03.gif" />
   </div>,
   <div className="intro-slide">
     <p>
