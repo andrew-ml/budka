@@ -1,0 +1,33 @@
+.Intro {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+
+  .intro-slide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+    .slider-image {
+      width: 500px;
+      display: block;
+      margin: 50px auto 0;
+    }
+
+    .intro-text {
+      .title {
+        display: block;
+        font-size: 50px;
+        margin: 0;
+      }
+      margin: auto;
+      font-size: 30px;
+      line-height: 1.5;
+      text-align: center;
+    }
+    p {
+      font-size: 40px;
+    }
+  }
+}
