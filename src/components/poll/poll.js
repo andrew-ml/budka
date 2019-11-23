@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
 import pollData from "../../constants/poll";
-import "./poll.scss";
+import "./poll.css";
 
 const MAX_VALUE = 100;
 

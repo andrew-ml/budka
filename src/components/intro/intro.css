@@ -1,0 +1,32 @@
+.Intro {
+  height: 100vh;
+  background: rgb(207, 255, 175);
+}
+.Intro .intro-slide {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.Intro .slider-image {
+  width: 500px;
+  display: block;
+  margin: 50px auto 0;
+}
+
+.Intro .intro-text .title {
+  display: block;
+  font-size: 50px;
+  margin: 0;
+}
+.Intro .intro-text {
+  margin: auto;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+.Intro p {
+  font-size: 40px;
+}

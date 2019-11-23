@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
-import "./intro.scss";
+import "./intro.css";
 
 const slides = [
   <div className="intro-slide">
